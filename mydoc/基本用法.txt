@@ -1,0 +1,31 @@
+
+https://hubot.github.com/docs/
+
+%  npm install -g yo generator-hubot
+	这个提示node.js和npm太老了
+	更新
+	
+	在linux下
+	npm WARN engine yo@1.4.7: wanted: {"node":">=0.10.0","npm":">=2.8.0"} (current: {"node":"v0.10.26","npm":"1.4.3"})
+	是不是直接更新npm就行
+	npm install -g npm
+	需要root才行，因为要写/usr等目录
+
+Yeoman
+	yo命令
+	开发web应用，管理，流程
+	
+? Owner: yes
+? Bot name: myhubot
+? Description: A simple helpful robot for your Company
+? Bot adapter: campfire
+	这是什么
+完事后，多了一堆的node模块
+[guozhaokui@localhost myhubot]$ ls node_modules/
+hubot              hubot-google-images     hubot-help              hubot-maps   hubot-redis-brain  hubot-scripts
+hubot-diagnostics  hubot-google-translate  hubot-heroku-keepalive  hubot-pugme  hubot-rules        hubot-shipit
+
+redis
+	远程字典服务
+	
+	
